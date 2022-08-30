@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { ColorButton } from './components/atoms/ColorButton'
+import { ColorButton } from '@/components/atoms/ColorButton'
 
 const App: React.FC = () => {
     return (

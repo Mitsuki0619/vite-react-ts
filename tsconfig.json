@@ -15,8 +15,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "/src/",
-    "strictBindCallApply": true
+    "strictBindCallApply": true,
+    "rootDir": "./",
+    "outDir": "./dist/",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src", "./.eslintrc.js", "./vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
